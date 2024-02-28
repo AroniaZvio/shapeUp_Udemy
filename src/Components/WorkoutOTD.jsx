@@ -22,7 +22,7 @@ const WorkoutOTD = () => {
           resizeMode="cover"
         >
           <View style={styles.textContainer}>
-            <Text style={styles.text}>Workout of Day 12</Text>
+            <Text style={styles.text}>Workout of Day 13</Text>
           </View>
         </ImageBackground>
       </View>
