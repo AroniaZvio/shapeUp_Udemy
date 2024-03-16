@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "shapeup_Udemy",
-    "slug": "shapeup_Udemy",
+    "slug": "shapeupudemy",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,19 +15,27 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "y"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.aroniazvio.shapeup_Udemy"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c3774fc8-15d4-4673-ba43-28bf6b6277de"
+      }
+    },
+    "owner": "aroniazvio"
   }
 }

@@ -21,7 +21,7 @@ const Welcome = () => {
           color: "#92400e",
         }}
       >
-        Welcome
+        BeFitness
       </Text>
     </View>
   );
