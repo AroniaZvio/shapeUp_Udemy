@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, ImageBackground, StyleSheet } from 'react-native';
-import otdImage from '../../assets/images/workoutotd.jpg';
+import otdImage from '../../assets/Images/workoutotd.jpg';
 import { useFonts, Lato_400Regular } from '@expo-google-fonts/lato';
 
 const WorkoutOTD = () => {
