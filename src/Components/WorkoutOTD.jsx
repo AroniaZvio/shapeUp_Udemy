@@ -28,7 +28,7 @@ const WorkoutOTD = () => {
               className="text-white/70 text-3xl tracking-tighter"
               style={{ fontFamily: "Lato_400Regular" }}
             >
-              Workout Of The Day 
+              Workout Of The Day 221
             </Text>
           </View>
         </ImageBackground>
