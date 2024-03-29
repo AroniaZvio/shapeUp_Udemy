@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "shapeup_Udemy",
-    "slug": "shapeup_Udemy",
+    "slug": "shapeupudemy",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,19 +15,27 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "ge.fitness.zvio"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "ge.fitness.zvio"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "97faf872-c591-46f9-aca9-fd8bdb341b33"
+      }
+    },
+    "owner": "azvio"
   }
 }

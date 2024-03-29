@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, ImageBackground, StyleSheet } from 'react-native';
-import otdImage from '../../assets/images/workoutotd.jpg';
+import otdImage from '../../assets/Images/workoutotd.jpg';
 import { useFonts, Lato_400Regular } from '@expo-google-fonts/lato';
 
 const WorkoutOTD = () => {
@@ -14,50 +14,26 @@ const WorkoutOTD = () => {
   }
 
   return (
-    <TouchableOpacity style={styles.container}>
-      <View style={styles.imageContainer}>
+    <TouchableOpacity
+      className="items-center justify-center"
+    >
+      <View className="rounded-3xl overflow-hidden h-40 w-[80%]">
         <ImageBackground
           source={otdImage}
-          style={styles.image}
+          className="flex-1 justify-center items-center"
           resizeMode="cover"
         >
-          <View style={styles.textContainer}>
-            <Text style={styles.text}>Workout of Day 500</Text>
+          <View>
+            <Text
+              className="text-white/70 text-3xl tracking-tighter"
+              style={{ fontFamily: "Lato_400Regular" }}
+            >
+              Workout Of The Day 29
+            </Text>
           </View>
         </ImageBackground>
       </View>
     </TouchableOpacity>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'top',
-  },
-  imageContainer: {
-    borderRadius: 20,
-    overflow: 'hidden',
-    height: 200,
-    width: '80%',
-  },
-  image: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  textContainer: {
-    backgroundColor: 'rgba(0, 0, 0, 0.5)',
-    padding: 10,
-    borderRadius: 10,
-  },
-  text: {
-    fontFamily: 'Lato_400Regular',
-    color: 'white',
-    fontSize: 30,
-    fontWeight: 'bold',
-  },
-});
-
 export default WorkoutOTD;

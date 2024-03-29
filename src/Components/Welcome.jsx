@@ -21,7 +21,7 @@ const Welcome = () => {
                 fontSize: 35,
                 textAlign: "center",
                 color: "#92400e",
-            }}>Welcome</Text>
+            }}>BeFitnness</Text>
      
         </View>
     );
