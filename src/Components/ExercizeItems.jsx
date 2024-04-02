@@ -30,7 +30,11 @@ const ExerciseItems = () => {
   );
 
   const RenderRow = ({ item, index }) => {
+<<<<<<< HEAD
     console.log("inside render row", index, item);
+=======
+    // console.log("inside render row", index, item);
+>>>>>>> bb9a41182983345343c9bb016dcf22eb129adf5c
     if (index % 2 === 0) {
       const nextItem = workoutData[index + 1];
       return (

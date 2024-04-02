@@ -8,7 +8,11 @@ import { useNavigation } from "@react-navigation/native";
 
 const beginner = require("../../assets/Images/beginner.jpg");
 const balance = require("../../assets/Images/balance.jpg");
+<<<<<<< HEAD
 const gentle = require("../../assets/Images/Gentle.jpg");
+=======
+const gentle = require("../../assets/Images/gentle.jpg");
+>>>>>>> bb9a41182983345343c9bb016dcf22eb129adf5c
 const intense = require("../../assets/Images/intense.jpg");
 const moderate = require("../../assets/Images/moderate.jpg");
 const strength = require("../../assets/Images/strength.jpg");

@@ -16,14 +16,22 @@
     ],
     "ios": {
       "supportsTablet": true,
+<<<<<<< HEAD
       "bundleIdentifier": "ge.fitness.zvio"
+=======
+      "bundleIdentifier": "y"
+>>>>>>> bb9a41182983345343c9bb016dcf22eb129adf5c
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
+<<<<<<< HEAD
       "package": "ge.fitness.zvio"
+=======
+      "package": "com.aroniazvio.shapeup_Udemy"
+>>>>>>> bb9a41182983345343c9bb016dcf22eb129adf5c
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -33,9 +41,16 @@
     ],
     "extra": {
       "eas": {
+<<<<<<< HEAD
         "projectId": "97faf872-c591-46f9-aca9-fd8bdb341b33"
       }
     },
     "owner": "azvio"
+=======
+        "projectId": "c3774fc8-15d4-4673-ba43-28bf6b6277de"
+      }
+    },
+    "owner": "aroniazvio"
+>>>>>>> bb9a41182983345343c9bb016dcf22eb129adf5c
   }
 }

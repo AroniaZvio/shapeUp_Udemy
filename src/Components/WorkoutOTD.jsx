@@ -28,7 +28,11 @@ const WorkoutOTD = () => {
               className="text-white/70 text-3xl tracking-tighter"
               style={{ fontFamily: "Lato_400Regular" }}
             >
+<<<<<<< HEAD
               Workout Of The Day 29
+=======
+              Workout Of The Day 03_16_2024
+>>>>>>> bb9a41182983345343c9bb016dcf22eb129adf5c
             </Text>
           </View>
         </ImageBackground>
@@ -36,4 +40,8 @@ const WorkoutOTD = () => {
     </TouchableOpacity>
   );
 };
+<<<<<<< HEAD
 export default WorkoutOTD;
+=======
+export default WorkoutOTD;
+>>>>>>> bb9a41182983345343c9bb016dcf22eb129adf5c
